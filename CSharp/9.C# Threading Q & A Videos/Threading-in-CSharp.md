@@ -24,6 +24,33 @@ This is called **Synchronous** or **Sequential Execution**.
 
 ---
 
+## Synchronous Process Example
+
+```CSharp
+static vid Main(string[] args)
+{
+    Function1();
+    Function2();
+}
+
+static void Function1()
+{
+    for(int i=0;i<10;i++)
+    {
+        Console.WriteLine("Function1 Executed");
+    }
+}
+
+static void Function2()
+{
+    for(int i=0;i<10;i++)
+    {
+        Console.WriteLine("Function2 Executed");
+    }
+}
+```
+
+
 ## Why Use Threading?
 
 Suppose:
