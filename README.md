@@ -1,13 +1,18 @@
+---
+title: Thread Pooling
+---
+
 # Thread Pooling
 
-📺 Video
+<iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/KjoWxbxQ4jg"
+  title="Thread Pooling"
+  frameBorder="0"
+  allowFullScreen
+/>
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=KjoWxbxQ4jg">
-    <img src="./assets/thread-pooling-thumbnail.jpg" width="350"/>
-  </a>
-</p>
+## Summary
 
-> Click the image to open the original YouTube video.
-
----
+Thread Pooling reuses threads instead of creating new ones repeatedly.
